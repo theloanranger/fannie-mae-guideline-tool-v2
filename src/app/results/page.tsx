@@ -151,15 +151,18 @@ export default function Results() {
     // Calculate Fannie Mae Qualification
     const qualificationResult = assessQualification({
       purchasePrice: data.property.purchasePrice,
+      downPayment: data.property.downPayment,
       loanAmount,
       ltv,
       fico: data.credit.fico,
       monthlyIncome: grossMonthlyIncome,
-      monthlyDebts: calculatedResults.totalMonthlyDebts,
-      dti,
-      housingRatio,
+      monthlyDebts: calculatedResults.totalMonthlyDebt,
+      propertyTax: calculatedResults.propertyTaxMonthly,
+      insurance: calculatedResults.insuranceMonthly,
       pmi: miMonthly,
+      hoa: calculatedResults.hoaMonthly,
       occupancy: data.property.occupancy,
+      county: data.property.county,
     });
 
     setQualification(qualificationResult);
