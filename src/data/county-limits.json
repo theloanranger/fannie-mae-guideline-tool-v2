@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "year": 2026,
+    "conformingLimit": 826350,
+    "note": "2026 Fannie Mae conforming and high-balance loan limits - California counties only"
+  },
+  "limits": {
+    "CA": {
+      "Alameda": {
+        "conforming": 826350,
+        "highBalance": 1239525
+      },
+      "Alpine": {
+        "conforming": 826350,
+        "highBalance": 1239525
+      },
+      "Amador": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Butte": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Calaveras": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Colusa": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Contra Costa": {
+        "conforming": 826350,
+        "highBalance": 1239525
+      },
+      "Del Norte": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "El Dorado": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Fresno": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Glenn": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Humboldt": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Imperial": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Inyo": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Kern": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Kings": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Lake": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Lassen": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Los Angeles": {
+        "conforming": 826350,
+        "highBalance": 1239525
+      },
+      "Madera": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Marin": {
+        "conforming": 826350,
+        "highBalance": 1239525
+      },
+      "Mariposa": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Mendocino": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Merced": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Modoc": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Mono": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Monterey": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Napa": {
+        "conforming": 826350,
+        "highBalance": 1239525
+      },
+      "Nevada": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Orange": {
+        "conforming": 826350,
+        "highBalance": 1239525
+      },
+      "Placer": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Plumas": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Riverside": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Sacramento": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "San Benito": {
+        "conforming": 826350,
+        "highBalance": 1239525
+      },
+      "San Bernardino": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "San Diego": {
+        "conforming": 826350,
+        "highBalance": 1239525
+      },
+      "San Francisco": {
+        "conforming": 826350,
+        "highBalance": 1239525
+      },
+      "San Joaquin": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "San Luis Obispo": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "San Mateo": {
+        "conforming": 826350,
+        "highBalance": 1239525
+      },
+      "Santa Barbara": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Santa Clara": {
+        "conforming": 826350,
+        "highBalance": 1239525
+      },
+      "Santa Cruz": {
+        "conforming": 826350,
+        "highBalance": 1239525
+      },
+      "Shasta": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Sierra": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Siskiyou": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Solano": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Sonoma": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Stanislaus": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Sutter": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Tehama": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Trinity": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Tulare": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Tuolumne": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Ventura": {
+        "conforming": 826350,
+        "highBalance": 1239525
+      },
+      "Yolo": {
+        "conforming": 826350,
+        "highBalance": 826350
+      },
+      "Yuba": {
+        "conforming": 826350,
+        "highBalance": 826350
+      }
+    },
+    "DEFAULT": {
+      "conforming": 826350,
+      "highBalance": 826350
+    }
+  }
+}
