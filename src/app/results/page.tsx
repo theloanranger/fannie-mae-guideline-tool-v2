@@ -16,6 +16,8 @@ import {
 } from '@/lib/calculations';
 import { determineLoanType, getCountyTaxRate } from '@/lib/county-lookup';
 import { evaluateGuidelines, GuidelineFlag } from '@/lib/rules-engine';
+import { assessQualification } from '@/lib/qualification';
+import QualificationDisplay from '@/components/QualificationDisplay';
 import { generateScenarioPDF } from '@/lib/pdf-generator';
 
 export default function Results() {
@@ -23,6 +25,7 @@ export default function Results() {
   const [scenarioData, setScenarioData] = useState<ScenarioInput | null>(null);
   const [results, setResults] = useState<any>(null);
   const [flags, setFlags] = useState<GuidelineFlag[]>([]);
+  const [qualification, setQualification] = useState<any>(null);
   const [borrowerInitials, setBorrowerInitials] = useState('XX');
 
   useEffect(() => {
@@ -144,6 +147,22 @@ export default function Results() {
     );
 
     setFlags(guidelineFlags);
+
+    // Calculate Fannie Mae Qualification
+    const qualificationResult = assessQualification({
+      purchasePrice: data.property.purchasePrice,
+      loanAmount,
+      ltv,
+      fico: data.credit.fico,
+      monthlyIncome: grossMonthlyIncome,
+      monthlyDebts: calculatedResults.totalMonthlyDebts,
+      dti,
+      housingRatio,
+      pmi: miMonthly,
+      occupancy: data.property.occupancy,
+    });
+
+    setQualification(qualificationResult);
   }, [router]);
 
   const handleExportPDF = () => {
@@ -433,6 +452,9 @@ export default function Results() {
           </div>
         )}
       </div>
+
+      {/* Fannie Mae Qualification Assessment */}
+      {qualification && <QualificationDisplay qualification={qualification} />}
 
       {/* Export Section */}
       <div className="card">
