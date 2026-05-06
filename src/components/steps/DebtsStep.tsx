@@ -76,7 +76,7 @@ export default function DebtsStep({ onComplete, onBack }: DebtsStepProps) {
             type="number"
             id="creditCards"
             min="0"
-            step="10"
+            step="0.01"
             className="input-field pl-8"
             value={formData.creditCards || ''}
             onChange={(e) => handleChange('creditCards', e.target.value)}
@@ -98,7 +98,7 @@ export default function DebtsStep({ onComplete, onBack }: DebtsStepProps) {
             type="number"
             id="autoLoans"
             min="0"
-            step="10"
+            step="0.01"
             className="input-field pl-8"
             value={formData.autoLoans || ''}
             onChange={(e) => handleChange('autoLoans', e.target.value)}
@@ -120,7 +120,7 @@ export default function DebtsStep({ onComplete, onBack }: DebtsStepProps) {
             type="number"
             id="studentLoans"
             min="0"
-            step="10"
+            step="0.01"
             className="input-field pl-8"
             value={formData.studentLoans || ''}
             onChange={(e) => handleChange('studentLoans', e.target.value)}
@@ -142,7 +142,7 @@ export default function DebtsStep({ onComplete, onBack }: DebtsStepProps) {
             type="number"
             id="otherDebts"
             min="0"
-            step="10"
+            step="0.01"
             className="input-field pl-8"
             value={formData.otherDebts || ''}
             onChange={(e) => handleChange('otherDebts', e.target.value)}

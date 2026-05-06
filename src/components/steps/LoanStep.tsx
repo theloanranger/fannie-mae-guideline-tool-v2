@@ -200,7 +200,7 @@ export default function LoanStep({ initialData, propertyData, onComplete, onBack
           max="5.00"
           step="0.01"
           className="input-field"
-          value={formData.taxRateOverride !== undefined ? (formData.taxRateOverride * 100).toFixed(2) : ''}
+          value={formData.taxRateOverride !== undefined ? (formData.taxRateOverride * 100) : ''}
           onChange={(e) => {
             const inputValue = e.target.value;
             if (inputValue === '') {

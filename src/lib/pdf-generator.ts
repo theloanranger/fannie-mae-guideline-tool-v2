@@ -147,12 +147,11 @@ export function generateScenarioPDF(
   addText('GUIDELINE FLAGS', 12, true);
   
   if (results.flags.length === 0) {
-    addText('✓ No guideline flags identified', 10);
+    addText('No guideline flags identified', 10);
   } else {
     results.flags.forEach((flag) => {
-      const severityText = flag.severity.toUpperCase();
-      const prefix = flag.severity === 'error' ? '✗' : flag.severity === 'warn' ? '⚠' : 'ℹ';
-      addText(`${prefix} [${severityText}] ${flag.message}`, 9);
+      const severityText = flag.severity === 'error' ? 'BLOCK' : flag.severity.toUpperCase();
+      addText(`[${severityText}] ${flag.message}`, 9);
       if (flag.reference) {
         addText(`   Reference: ${flag.reference}`, 8);
       }

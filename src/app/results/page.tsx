@@ -387,7 +387,7 @@ export default function Results() {
             {errorFlags.length > 0 && (
               <div>
                 <h4 className="text-sm font-semibold text-red-700 mb-2">
-                  Errors ({errorFlags.length})
+                  Blocks ({errorFlags.length})
                 </h4>
                 {errorFlags.map((flag, idx) => (
                   <div
